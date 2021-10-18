@@ -14,3 +14,12 @@ class Calculator:
 
     def divide(self):
         return(self.num2 / self.num1)
+
+num1 = int(input('Digite o num1: '))
+num2 = int(input('Digite o num2: '))
+
+calculator = Calculator(num1, num2)
+print("Adição:", calculator.add())
+print("Subtração:", calculator.subtract())
+print("Mutiplicação:", calculator.multiply())
+print("Divisão:", calculator.divide())
