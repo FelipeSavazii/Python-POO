@@ -16,3 +16,4 @@ z = int(input('Digite o Z: '))
 
 resultado = Point(x, y, z)
 print(resultado.sqSum())
+
