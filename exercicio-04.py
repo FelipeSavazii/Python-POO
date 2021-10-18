@@ -13,5 +13,5 @@ length = int(input('Digite o comprimento: '))
 width = int(input('Digite a largura: '))
 
 retangulo = Rectangle(length, width)
-print("A área é ", retangulo.area())
-print("O perimetro é ", retangulo.perimeter())
+print("A área é", retangulo.area())
+print("O perimetro é", retangulo.perimeter())
